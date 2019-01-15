@@ -1,6 +1,6 @@
 # mra_blood_vessel_segmentation
 New algorithm for the automatic segmentation of blood vessels in cerebral MRA scans.
-The newly developed algorithm udertakes the following steps:
+The newly developed algorithm undertakes the following steps:
 - Create a total of 9 2D image projections (3 front views and 6 edge views), to segment blood vessels in 2D space.
 - CLAHE enhance the 9 image projections
 - For each of the nine CLAHE projections, a neural network (U-NET) is trained to create blood vessel segments
