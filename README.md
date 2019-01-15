@@ -4,7 +4,7 @@ The newly developed algorithm udertakes the following steps:
 - Create a total of 9 2D image projections (3 front views and 6 edge views), to segment blood vessels in 2D space.
 - CLAHE enhance the 9 image projections
 - For each of the nine CLAHE projections, a neural network (U-NET) is trained to create blood vessel segments
-- Reconstruct the 3D MRA raw segmentation, based on the 9 2D segmentations
+- Reconstruct the 3D MRA raw segmentation map, based on the 9 2D image segmentations
 - Apply image dilution to build up the full 3D segmentation map of blood vessels for the 3D source image
 
 Process is configurable to work with various MRI scanner models and produced excellent results with performance metrics greater than 0.9 for precision, recall and F1 Score against manually segmented ground truth data.
