@@ -4,6 +4,7 @@
 # 
 # UNet Models that have been built for training and execution of the segmentation processes
 # on the 9 different 2-dimensional image projections 
+# U-NET model is based on work by Tobias Sterbak, https://www.depends-on-the-definition.com/unet-keras-segmenting-images 
 
 
 import numpy as np
